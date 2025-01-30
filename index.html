@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<!-- saved from url=(0043)http://127.0.0.1:5502/The%20bookmrk.co.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <link rel="stylesheet" href="style.css">
-    <title> The bookmark.co </title>
-
-      
-     
- </head>
-  <body>
-     <!-- Navbar links -->
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <!-- Include Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <title> The bookmark.co </title>
+</head>
+<body>
+  <!-- Navbar links -->
   <nav>
     <ul>
       <li><a href="#home">Home</a></li>
@@ -17,63 +16,106 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-    
-    <h1>The bookmrk.co </h1>
-    <p> Welcome to The bookmark.co  , your ultimate online bookmarking solution! The bookmrk.co creates customizable, handmade bookmarks crafted with care and attention to detail. Some of the bookmarks can be the same as the picture. Each bookmark is a unique piece of art, perfect for personal use or as a thoughtful, personalized gift for book lovers. Enhance your reading experience with The bookmrk.co, where your bookmarks are always just a click away!  </p>
 
-    <header>
+  <h1>The bookmrk.co </h1>
+
+  <header>
+    <div class="header-content">
       <div class="logo">
-          <img src="image/logo.jpg" alt="Logo">
+        <img src="image/logo.jpg" alt="Logo">
       </div>
-     
-      <h2>Handmade Bookmarks</h2>
-      <p>Explore our unique, customized bookmarks!</p>
-    </header>
-    <section class="gallery">
-      <div class="bookmark-item">
-        <img src="image/bookmark1.jpeg" alt="Custom Bookmark 1">
-        <p>Bookmark 1 Theese are a bookmarks for a pack of 3 coming at 50/- each. COD available </p>
-      </div>
-      <div class="bookmark-item">
-        <img src="image/bookmark2.jpeg" alt="Custom Bookmark 2">
-        <p>Bookmark 2 This is a bookmark relatable to all the book lovers  (because all of us are in love with fictional charecters)in the world, coming to your house at 50/- </p>
-      </div>
-      <div class="bookmark-item">
-        <img src="image/bookmark3.jpeg" alt="Custom Bookmark 8">
-        <p>Bookmark 3 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-</p>
-      </div>
-      <div class="bookmark-item">
-        <img src="image/bookmark4.jpeg" alt="Custom Bookmark 3">
-        <p>Bookmark 4 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-</p>
-      </div>
-      <div class="bookmark-item">
-        <img src="image/bookmark5.jpeg" alt="Custom Bookmark 4">
-        <p>Bookmark 5 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-</p>
-      </div>
-      <div class="bookmark-item">
-        <img src="image/bookmark6.jpeg" alt="Custom Bookmark 5">
-        <p>Bookmark 6 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-</p>
-      </div>
-      <div class="bookmark-item">
-        <img src="image/bookmark7.jpeg" alt="Custom Bookmark 6">
-        <p>Bookmark 7 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-</p>
-      </div>
-      <div class="bookmark-item">
-        <img src="image/bookmark8.avif" alt="Custom Bookmark 7">
-        <p>Bookmark 8 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-</p>
-      </div>
-      <div class="bookmark-item">
-        <img src="image/bookmark9.jpeg" alt="Custom Bookmark 7">
-        <p>Bookmark 9 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-</p>
-      </div>
-      <div class="bookmark-item">
-        <img src="image/bookmark10.jpg" alt="Custom Bookmark 7">
-        <p>Bookmark 10 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-</p>
-      </div>
+      <p>Welcome to The bookmark.co, your ultimate online bookmarking solution! The bookmrk.co creates customizable, handmade bookmarks crafted with care and attention to detail. Some of the bookmarks can be the same as the picture. Each bookmark is a unique piece of art, perfect for personal use or as a thoughtful, personalized gift for book lovers. Enhance your reading experience with The bookmrk.co, where your bookmarks are always just a click away!</p>
+    </div>
+ </header>
+ <section class="slider">
+  <!-- Image Container -->
+  <div class="image-container">
+    <img src="image/bookmarkslider1.png" class="slide" alt="Dock Image">
+    <img src="image/bookmarkslider2.png" class="slide" alt="Nature Image">
+    <img src="image/bookmarkslider3.png" class="slide" alt="Space Image">
+  </div>
+  <!-- Custom Buttons for Navigation -->
+  <div class="buttons">
+    <a href="#slide-1" data-bs-slide-to="0" class="button-dot active"></a>
+    <a href="#slide-2" data-bs-slide-to="1" class="button-dot"></a>
+    <a href="#slide-3" data-bs-slide-to="2" class="button-dot"></a>
+  </div>
+</section>
 
-    </section>
-    <footer>
-      <p>Contact us at [simaya.25mahajan@gmail.com] or + 91 9927088225 </p>
-      <h5> - Original Design by Simaya Mahajan</h5>
-    </footer>
-</body></html>
+
+ <section class="gallery-container">
+  <h1>Bookmark Gallery</h1>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="bookmark-item">
+          <img src="image/bookmark2.jpeg" alt="Custom Bookmark 2" class="img-fluid">
+          <p>Bookmark 2 This is a bookmark relatable to all the book lovers in the world, coming to your house at 50/-.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="bookmark-item">
+          <img src="image/bookmark3.jpeg" alt="Custom Bookmark 3" class="img-fluid">
+          <p>Bookmark 3 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="bookmark-item">
+          <img src="image/bookmark4.jpeg" alt="Custom Bookmark 4" class="img-fluid">
+          <p>Bookmark 4 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="bookmark-item">
+          <img src="image/bookmark5.jpeg" alt="Custom Bookmark 5" class="img-fluid">
+          <p>Bookmark 5 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="bookmark-item">
+          <img src="image/bookmark6.jpeg" alt="Custom Bookmark 6" class="img-fluid">
+          <p>Bookmark 6 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="bookmark-item">
+          <img src="image/bookmark7.jpeg" alt="Custom Bookmark 7" class="img-fluid">
+          <p>Bookmark 7 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="bookmark-item">
+          <img src="image/bookmark8.avif" alt="Custom Bookmark 8" class="img-fluid">
+          <p>Bookmark 8 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="bookmark-item">
+          <img src="image/bookmark9.jpeg" alt="Custom Bookmark 9" class="img-fluid">
+          <p>Bookmark 9 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="bookmark-item">
+          <img src="image/bookmark10.jpg" alt="Custom Bookmark 10" class="img-fluid">
+          <p>Bookmark 10 This is a bookmark that is a true message to all the book fans around the globe, reaching your doorstep at just 50/-.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <footer>
+    <p>@copyright-info 2025</p>
+    <h5> - Original Design by Simaya Mahajan</h5>
+  </footer>
+
+  <!-- Include Bootstrap JS and dependencies -->
+     <!-- Link your script.js file -->
+  <script src="script.js"></script> <!-- Adjust the path if you are using a subfolder -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
